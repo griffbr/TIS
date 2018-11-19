@@ -19,23 +19,21 @@ Please cite our paper if you find it useful for your research.
 
 ## Method
 
-TIS processing of image data to find foreground objects. The outlier scale acts as a weighting that adapts to frame-to-frame video characteristics. In this example, we focus on optical flow magnitude with outliers depicted as black pixels (middle row) and flow distributions offset from the median (bottom row).
+__TIS processes image data to find foreground objects.__ The outlier scale acts as a weighting that adapts to frame-to-frame video characteristics. In this example, we focus on optical flow magnitude with outliers depicted as black pixels (middle row). Flow distributions are offset from the median (bottom row) and include the interquartile range (solid lines) and outlier thresholds (dotted lines).
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects")
-<img src="https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png" width="48">
 <br />
 
-TISM processing and combining multiple segmentation masks.
-![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TISM processing of multiple segmentation masks"){:height="75%" width="75%"}
-
+__TISM processes and combines multiple segmentation masks for a collectively more robust method of segmentation.__
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TISM processing of multiple segmentation masks")
 
 ## Results
 
-DAVIS results for state-of-the-art unsupervised methods. TIS-based methods achieve top results in all categories.
+__DAVIS results for state-of-the-art unsupervised methods.__ TIS-based methods achieve top results in all categories.
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_Unsupervised.png "DAVIS results for state-of-the-art unsupervised methods")
 <br />
 
-Visual comparison of segmentation methods on complete DAVIS dataset. TISM-based methods improve performance across all categories of supervision.
-![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset"){:height="75%" width="75%"}
+__Visual comparison of segmentation methods on complete DAVIS dataset.__ TISM-based methods improve performance across all categories of supervision.
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset")
 
-# Use
+## Use
 This software is for 
