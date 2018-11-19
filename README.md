@@ -19,18 +19,21 @@ Please cite our paper if you find it useful for your research.
 
 ## Method
 
-
+TIS processing of image data to find foreground objects. The outlier scale acts as a weighting that adapts to frame-to-frame video characteristics. In this example, we focus on optical flow magnitude with outliers depicted as black pixels (middle row) and flow distributions offset from the median (bottom row).
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects")
-TIS processing of image data to find foreground objects.
+<br />
 
+TISM processing and combination of multiple segmentation masks.
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TISM processing of multiple segmentation masks")
 
 
 ## Results
 
-DAVIS results for state-of-the-art unsupervised methods.
+DAVIS results for state-of-the-art unsupervised methods. TIS-based methods achieve top results in all categories.
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_Unsupervised.png "DAVIS results for state-of-the-art unsupervised methods")
+<br />
 
+Visual comparison of segmentation methods on complete DAVIS dataset. TISM-based segmentation methods improve performance across all categories of supervised and unsupervised methods.
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset")
 
 # Use
