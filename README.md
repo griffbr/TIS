@@ -1,9 +1,10 @@
-# TIS
-Tukey-Inspired Video Object Segmentation
+# TIS: Tukey-Inspired Video Object Segmentation
 
-# Paper
-[Tukey-Inspired Video Object Segmentation](https://www.google.com "ArXiV Paper")
-[Brent A. Griffin](www.griffb.com) and [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/)
+Contact: Brent Griffin (griffb at umich dot edu)
+
+## Publication
+[Tukey-Inspired Video Object Segmentation](https://www.google.com "ArXiV Paper")<br />
+[Brent A. Griffin](https://www.griffb.com) and [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/)<br />
 IEEE Winter Conference on Applications of Computer Vision (WACV), 2019
 
 Please cite our paper if you find it useful for your research.
@@ -16,6 +17,18 @@ Please cite our paper if you find it useful for your research.
 }
 ```
 
+## Method
+
+![alt text](https://github.com/griffbr/TIS/figures/TIS_data.png "TIS processing of image data to find foreground objects")
+
+![alt text](https://github.com/griffbr/TIS/figures/TISM.png "TISM processing of multiple segmentation masks")
+
+
+## Results
+
+![alt text](https://github.com/griffbr/TIS/figures/DAVIS16_Unsupervised.png "DAVIS results for state-of-the-art unsupervised methods")
+
+![alt text](https://github.com/griffbr/TIS/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset")
 
 # Use
 This software is for 
