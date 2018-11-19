@@ -20,11 +20,11 @@ Please cite our paper if you find it useful for your research.
 ## Method
 
 TIS processing of image data to find foreground objects. The outlier scale acts as a weighting that adapts to frame-to-frame video characteristics. In this example, we focus on optical flow magnitude with outliers depicted as black pixels (middle row) and flow distributions offset from the median (bottom row).
-![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects")
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects"){:height="75%" width="75%"}
 <br />
 
-TISM processing and combination of multiple segmentation masks.
-![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TISM processing of multiple segmentation masks")
+TISM processing and combining multiple segmentation masks.
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TISM processing of multiple segmentation masks"){:height="75%" width="75%"}
 
 
 ## Results
@@ -33,8 +33,8 @@ DAVIS results for state-of-the-art unsupervised methods. TIS-based methods achie
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_Unsupervised.png "DAVIS results for state-of-the-art unsupervised methods")
 <br />
 
-Visual comparison of segmentation methods on complete DAVIS dataset. TISM-based segmentation methods improve performance across all categories of supervised and unsupervised methods.
-![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset")
+Visual comparison of segmentation methods on complete DAVIS dataset. TISM-based methods improve performance across all categories of supervision.
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset"){:height="75%" width="75%"}
 
 # Use
 This software is for 
