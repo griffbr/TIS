@@ -20,7 +20,8 @@ Please cite our paper if you find it useful for your research.
 ## Method
 
 TIS processing of image data to find foreground objects. The outlier scale acts as a weighting that adapts to frame-to-frame video characteristics. In this example, we focus on optical flow magnitude with outliers depicted as black pixels (middle row) and flow distributions offset from the median (bottom row).
-![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects"){:height="75%" width="75%"}
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects")
+<img src="https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png" width="48">
 <br />
 
 TISM processing and combining multiple segmentation masks.
