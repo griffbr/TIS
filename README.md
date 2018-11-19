@@ -20,19 +20,18 @@ Please cite our paper if you find it useful for your research.
 ## Method
 
 
-![alt text](https://github.com/griffbr/TIS/figures/TIS_data.png)
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects")
 TIS processing of image data to find foreground objects.
 
-![alt text](https://github.com/griffbr/TIS/figures/TISM.png)
-TISM processing of multiple segmentation masks.
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TISM processing of multiple segmentation masks")
+
 
 ## Results
 
-![alt text](https://github.com/griffbr/TIS/figures/DAVIS16_Unsupervised.png)
 DAVIS results for state-of-the-art unsupervised methods.
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_Unsupervised.png "DAVIS results for state-of-the-art unsupervised methods")
 
-![alt text](https://github.com/griffbr/TIS/figures/DAVIS16_plot.png)
-Visual comparison of segmentation methods on DAVIS dataset.
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset")
 
 # Use
 This software is for 
