@@ -41,7 +41,7 @@ Pre-computed results for TIS_0, TIS_S, and TIS_M on DAVIS 2016 are provided in t
 
 ## Source Code
 
-Source code for TIS_0 and TIS_S segmentation methods from the paper are provided in the `/TIS` folder.
+Source code for TIS_0 and TIS_S segmentation methods from the paper is provided in the `/TIS` folder.
 
 Source code for the TIS_M segmentation method from the paper is provided in the `/TIS_M` folder.
 
