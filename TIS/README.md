@@ -23,11 +23,12 @@ TIS.m - Performs video object segmentation given directory information and confi
 
 ## Notes 
 
-Supervoxel images are included with the examples but must be generated for new videos (see LIBSVX below).<br />
 TIS0 algorithm can be run using video images alone.<br />
-Output annotations exhibit slight variations each time optical flow data is re-processed due to stochastic processes.
+Output annotations exhibit slight variations each time optical flow data is re-processed due to stochastic processes.<br />
+Supervoxel images are included with the examples but must be generated for new videos (see LIBSVX below).
 
-Code is currently configured to run on Windows. If using another OS, reconfigure the external files listed below for best results.
+
+This Code is currently configured to run on Windows. If using another OS, reconfigure the external files listed below for best results.
 
 Have fun!
 

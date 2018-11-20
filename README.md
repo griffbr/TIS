@@ -37,13 +37,13 @@ __Visual comparison of segmentation methods on DAVIS dataset.__ TIS_M-based meth
 
 ## Pre-Computed Results
 
-Pre-computed results for TIS_0, TIS_S, and TIS_M results on DAVIS 2016 are provided in the `/precomputed_results` folder.
+Pre-computed results for TIS_0, TIS_S, and TIS_M on DAVIS 2016 are provided in the `/precomputed_results` folder.
 
 ## Source Code
 
 Source code for TIS_0 and TIS_S segmentation methods from the paper are provided in the `/TIS` folder.
 
-Source code for the TIS_M segmentation method from paper is provided in the `/TIS_M` folder.
+Source code for the TIS_M segmentation method from the paper is provided in the `/TIS_M` folder.
 
 ## Use
 
