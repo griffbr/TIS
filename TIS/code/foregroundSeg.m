@@ -1,6 +1,6 @@
 function [ seg ] = foregroundSeg( seg )
 % Calculate mask for foreground segmentation.
-fprintf('Computing initial foreground / background segmentation (TISO).\n');
+fprintf('Computing initial foreground / background segmentation (TIS_0).\n');
 
 % Initialize miscellaneous variables.
 seg.cur.fgMask = false(seg.cur.vid_size); 

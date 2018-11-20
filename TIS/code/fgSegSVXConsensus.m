@@ -1,7 +1,7 @@
 function [ seg ] = fgSegSVXConsensus( seg )
 % Refine initial foreground estimate using supervoxel-based local and
 % non-local consensus.
-fprintf('Computing final foreground / background segmentation (supervoxel consensus).\n');
+fprintf('Computing final foreground / background segmentation using supervoxel consensus (TIS_S).\n');
 
 switch seg.SVXConsensus
     case 'Both'

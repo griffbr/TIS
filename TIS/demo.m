@@ -1,4 +1,4 @@
-%% Demo Configuration
+%% Demo configuration
  
 % Paths
 demo_input.trial = './exampleDirectory/'; % Path for trial input and output data.

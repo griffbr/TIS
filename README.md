@@ -1,7 +1,5 @@
 # TIS: Tukey-Inspired Video Object Segmentation
 
-## work in progress!
-
 Contact: Brent Griffin (griffb at umich dot edu)
 
 ## Publication
@@ -37,5 +35,12 @@ __DAVIS results for state-of-the-art unsupervised methods.__ TIS-based methods a
 __Visual comparison of segmentation methods on DAVIS dataset.__ TISM-based methods improve performance across all categories of supervision.
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset")
 
-## Use
-This software is for 
+## Pre-Computed Results
+
+Pre-computed results for TIS_0, TIS_S, and TIS_M results on DAVIS 2016 are provided in /precomputed_results.
+
+## Source Code
+
+Source code for TIS_0 and TIS_S segmentation methods from the paper are provided in /TIS folder.
+
+Source code for the TIS_M segmentation method from paper is provided in /TIS_M folder.
