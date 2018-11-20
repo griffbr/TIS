@@ -1,5 +1,7 @@
 # TIS: Tukey-Inspired Video Object Segmentation
 
+## work in progress!
+
 Contact: Brent Griffin (griffb at umich dot edu)
 
 ## Publication
@@ -23,7 +25,7 @@ __TIS processes image data to find foreground objects.__ The outlier scale acts 
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects")
 <br />
 
-__TISM processes and combines multiple segmentation masks for a collectively more robust method of segmentation.__
+__TISM processes and combines multiple segmentation masks__, generating a collectively more robust method of segmentation.
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TISM processing of multiple segmentation masks")
 
 ## Results
@@ -32,7 +34,7 @@ __DAVIS results for state-of-the-art unsupervised methods.__ TIS-based methods a
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_Unsupervised.png "DAVIS results for state-of-the-art unsupervised methods")
 <br />
 
-__Visual comparison of segmentation methods on complete DAVIS dataset.__ TISM-based methods improve performance across all categories of supervision.
+__Visual comparison of segmentation methods on DAVIS dataset.__ TISM-based methods improve performance across all categories of supervision.
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset")
 
 ## Use
