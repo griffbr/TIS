@@ -23,8 +23,8 @@ __TIS processes image data to find foreground objects.__ The outlier scale acts 
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/TIS_data.png "TIS processing of image data to find foreground objects")
 <br />
 
-__TISM processes and combines multiple segmentation masks__, generating a collectively more robust method of segmentation.
-![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TISM processing of multiple segmentation masks")
+__TIS_M processes and combines multiple segmentation masks__, generating a collectively more robust method of segmentation.
+![alt text](https://github.com/griffbr/TIS/blob/master/figures/TISM.png "TIS_M processing of multiple segmentation masks")
 
 ## Results
 
@@ -32,15 +32,19 @@ __DAVIS results for state-of-the-art unsupervised methods.__ TIS-based methods a
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_Unsupervised.png "DAVIS results for state-of-the-art unsupervised methods")
 <br />
 
-__Visual comparison of segmentation methods on DAVIS dataset.__ TISM-based methods improve performance across all categories of supervision.
+__Visual comparison of segmentation methods on DAVIS dataset.__ TIS_M-based methods improve performance across all categories of supervision.
 ![alt text](https://github.com/griffbr/TIS/blob/master/figures/DAVIS16_plot.png "Visual comparison of segmentation methods on DAVIS dataset")
 
 ## Pre-Computed Results
 
-Pre-computed results for TIS_0, TIS_S, and TIS_M results on DAVIS 2016 are provided in /precomputed_results.
+Pre-computed results for TIS_0, TIS_S, and TIS_M results on DAVIS 2016 are provided in the `/precomputed_results` folder.
 
 ## Source Code
 
-Source code for TIS_0 and TIS_S segmentation methods from the paper are provided in /TIS folder.
+Source code for TIS_0 and TIS_S segmentation methods from the paper are provided in the `/TIS` folder.
 
-Source code for the TIS_M segmentation method from paper is provided in /TIS_M folder.
+Source code for the TIS_M segmentation method from paper is provided in the `/TIS_M` folder.
+
+## Use
+
+This code is available for non-commercial research purposes only.
