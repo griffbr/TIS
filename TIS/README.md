@@ -1,10 +1,8 @@
 # TIS_0 and TIS_S: Tukey-Inspired Video Object Segmentation
-[Brent A. Griffin](https://www.griffb.com) and [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/)<br />
-IEEE Winter Conference on Applications of Computer Vision (WACV), 2019 <br />
-
 This is the source code implementation for TIS_0 and TIS_S from the following paper:
 [Tukey-Inspired Video Object Segmentation](https://arxiv.org/abs/1811.07958 "ArXiV Paper")<br />
-
+[Brent A. Griffin](https://www.griffb.com) and [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/)<br />
+IEEE Winter Conference on Applications of Computer Vision (WACV), 2019
 
 Please cite our paper if you find it useful for your research.
 ```
