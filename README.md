@@ -3,7 +3,7 @@
 Contact: Brent Griffin (griffb at umich dot edu)
 
 ## Publication
-[Tukey-Inspired Video Object Segmentation](https://www.google.com "ArXiV Paper")<br />
+[Tukey-Inspired Video Object Segmentation](https://arxiv.org/abs/1811.07958 "ArXiV Paper")<br />
 [Brent A. Griffin](https://www.griffb.com) and [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/)<br />
 IEEE Winter Conference on Applications of Computer Vision (WACV), 2019
 

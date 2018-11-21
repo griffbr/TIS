@@ -3,7 +3,7 @@
 IEEE Winter Conference on Applications of Computer Vision (WACV), 2019 <br />
 
 This is the source code implementation for TIS_0 and TIS_S from the following paper:
-[Tukey-Inspired Video Object Segmentation](https://www.google.com "ArXiV Paper")<br />
+[Tukey-Inspired Video Object Segmentation](https://arxiv.org/abs/1811.07958 "ArXiV Paper")<br />
 
 
 Please cite our paper if you find it useful for your research.
