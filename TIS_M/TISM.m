@@ -60,13 +60,14 @@ for i=1:length(vid_list)
         end
         mask_fg_scale = mask_fg_scale / sum(mask_fg_scale);
         % Combine mask frame for each input mask.
-        tmp_mask = zeros(480,854);
+        [h, w] = size(tmp_im);
+        tmp_mask = zeros(h,w);
         for k=1:mask_n
             tmp_im = imread([mask_dir mask_list{k} '/' vid_list{i} '/' frame_list{j}]);
             tmp_idx = tmp_im>0;
             tmp_mask(tmp_idx) = tmp_mask(tmp_idx) + mask_fg_scale(k);
         end
-        mask_combine = zeros(480,854,'uint8');
+        mask_combine = zeros(h,w,'uint8');
         mask_combine(tmp_mask>=fg_combine_thresh)=255;
         % Write the resulting mask to the output directory.
         imwrite(mask_combine, [out_vid_dir '/' frame_list{j}])
