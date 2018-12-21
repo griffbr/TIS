@@ -20,6 +20,7 @@ Please cite our paper if you find it useful for your research.
 ## Method
 
 __Video Description:__ https://youtu.be/FeWnFz4Cf_8
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/FeWnFz4Cf_8/0.jpg)](https://www.youtube.com/watch?v=FeWnFz4Cf_8)
 
 __TIS processes image data to find foreground objects.__ The outlier scale acts as a weighting that adapts to frame-to-frame video characteristics. In this example, we focus on optical flow magnitude with outliers depicted as black pixels (middle row). Flow distributions are offset from the median (bottom row) and include the interquartile range (solid lines) and outlier thresholds (dotted lines).
